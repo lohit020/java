@@ -1,8 +1,8 @@
-package cominator;
+package combinator;
+
+import static combinator.CustomerValidatorService.*;
 
 import java.util.function.Function;
-
-import static cominator.CustomerValidatorService.*;
 
 public interface CustomerValidatorService extends Function<Customer, ValidationResult> {
 

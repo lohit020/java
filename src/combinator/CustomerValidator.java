@@ -1,4 +1,4 @@
-package cominator;
+package combinator;
 
 public class CustomerValidator {
 
